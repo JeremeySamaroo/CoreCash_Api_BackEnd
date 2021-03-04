@@ -7,3 +7,15 @@
 ```
 xcode-select --install
 ```
+
+2)intializ git project
+```
+git init .
+```
+
+3)Add git remote to repository 
+```
+git remote add origin <url>
+```
+
+
