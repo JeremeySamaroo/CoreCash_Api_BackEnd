@@ -60,14 +60,16 @@ D_Specific
 docker run --name=API_CoreCash -v /Users/donnamariedeowan/Documents/FinalProjects/CoreCash_Api_BackEnd-master:/app --network=corecash -p 3000:3000 api_corecash_container
 ```
 
-4) Create Monogodb Image
+## Create Docker Container for MongoDB
+
+1) Create Monogodb Image
 ```
 docker pull mongo
 ```
 
-5) Create a folder in "FinalProject" called "dockerMongoCoreCash"
+2) Create a folder in "FinalProject" called "dockerMongoCoreCash"
 
-6) Create Mongodb Container
+3) Create Mongodb Container
 ```
 D_Specific
 docker run -it -v /Users/donnamariedeowan/Documents/FinalProjects/dockerMongoCoreCash:/data/db --network=corecash -p 27017:27017 --name dockerMongodbCoreCash -d mongo
