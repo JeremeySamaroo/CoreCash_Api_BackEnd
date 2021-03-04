@@ -1,7 +1,7 @@
 # CoreCash_Api_BackEnd
 2021 Final Project Api and Database Setup
 
-##Initial Project Setup on Mac
+## Initial Project Setup on Mac
 1) Create A Folder "FinalProjects" in Documents.
 
 2) Download Git zip and place into "FinalProject" Folder
@@ -38,7 +38,7 @@ git add .
 git commit -m "<Some-Message>"
 ```
 
-##Create Docker Container for Api
+## Create Docker Container for Api
 1) Create a Docker network
 ```
 docker network create corecash
